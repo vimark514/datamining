@@ -21,11 +21,13 @@ else:
 
         return gray_image
 
+
     def threshold_processing(g_image, threshold):
         thresholded = np.zeros_like(g_image)
         thresholded[g_image >= threshold] = 255
         thresholded[g_image < threshold] = 0
         return thresholded
+
 
     def segment_image(g_image, block_size):
         h, w = g_image.shape
@@ -45,7 +47,7 @@ else:
     plt.ylabel('Frequency')
     plt.show()
 
-    threshold_value = 87
+    threshold_value = 220
     thresholded_image = threshold_processing(gray_image, threshold_value)
 
     plt.imshow(thresholded_image, cmap='gray')
