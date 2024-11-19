@@ -1,5 +1,5 @@
 import numpy as np
-from matrix_creator import MatrixCreator
+from lab5.matrix_creator import MatrixCreator
 
 
 class MaxDifferenceEqualSeriesCalculator:
