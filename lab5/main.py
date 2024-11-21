@@ -3,12 +3,12 @@ import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-from amount_of_big_diff_calculator import AmountOfBigDifferenceCalculator
-from average_diff import AverageDifferenceCalculator
-from heatmap_plotter import Heatmap2DPlotter
-from segmentator import Segmentator
-from max_diff_equal_series_calculator import MaxDifferenceEqualSeriesCalculator
-from shennon_entropy import ShennonEntropyCalculator
+from lab5.amount_of_big_diff_calculator import AmountOfBigDifferenceCalculator
+from lab5.average_diff import AverageDifferenceCalculator
+from lab5.heatmap_plotter import Heatmap2DPlotter
+from lab5.segmentator import Segmentator
+from lab5.max_diff_equal_series_calculator import MaxDifferenceEqualSeriesCalculator
+from lab5.shennon_entropy import ShennonEntropyCalculator
 
 MAX_COLOR_BRIGHTNESS = 255
 
